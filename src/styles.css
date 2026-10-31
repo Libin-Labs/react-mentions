@@ -1,0 +1,42 @@
+.lp-mentions {
+  color: #172033;
+  font:
+    14px/1.5 system-ui,
+    sans-serif;
+}
+.lp-mentions textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  font: inherit;
+  color: inherit;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+  background: white;
+}
+.lp-mentions textarea:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+.lp-mentions__popup {
+  max-height: 240px;
+  overflow: auto;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 4px 12px #0002;
+}
+.lp-mentions__option {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.lp-mentions__option[aria-selected='true'] {
+  background: #dbeafe;
+}
+.lp-mentions [role='status'] {
+  padding: 4px 12px;
+  color: #475569;
+  font-size: 12px;
+}
